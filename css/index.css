@@ -1,0 +1,171 @@
+#main-content #banner{
+    width: 100%;
+    height: 600px;
+    background-color: gold;
+    background-image: url("https://scanmagazine.co.uk/content/uploads/2018/09/loelle.jpg");
+    background-position: bottom;
+}
+#main-content #product-home .product-photo{
+    width: 700PX;
+    height: 700PX;
+    background-color: goldenrod;
+    background-image: url("https://www.loelle.eu/images/other-pics/Play_movie_loelle.png");
+    background-position: right;
+}
+#main-content #product-home .product-intro{
+    width: calc(100% - 700PX);
+    height: 700px;
+    background-color: greenyellow;
+    padding: 30px 10px;
+    font-weight: 700;
+}
+@media(max-width:1024px){
+    #main-content #product-home .container{
+        position: relative;
+    }
+    #main-content #product-home .product-photo{
+        width: 100%;
+        height: 700px;
+    }
+    #main-content #product-home .product-intro{
+        text-align: center;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: unset;
+        background-color: rgb(173, 105, 221);
+    }
+}
+#main-content #product-item .card{
+    width: 33%;
+    height: 500px;
+    background-color: violet;
+}
+#main-content #product-item .card:nth-child(2){
+    margin: 0 10px;
+}
+
+#main-content #product-item .card .photo-1{
+    width: 100%;
+    height: 50%;
+    background-color:rgb(192, 133, 235);    background-image: url("https://www.loelle.eu/images/products/Loelle_Argan_Oil_100ml_ECO.jpg");
+    background-position: center;
+} 
+#main-content #product-item .card .photo-2{
+    width: 100%;
+    height: 50%;
+    background-color:rgb(192, 133, 235);    background-image: url("https://www.loelle.eu/images/products/Barbary_Fig_Seed_Oil,_Face_Oil_30ml.jpg");
+    background-position: center;
+}
+#main-content #product-item .card .photo-3{
+    width: 100%;
+    height: 50%;
+    background-color:rgb(192, 133, 235);    background-image: url("https://www.loelle.eu/images/products/Loelle_Neroli_Water_100ml.jpg");
+    background-position: center;
+}
+
+    
+#main-content #product-item .card .text{
+    padding: 5px 5px;
+    width: 100%;
+    height: 50%;
+    background-color: rgb(235, 128, 211);
+    text-align: center;
+
+}
+@media(max-width:1024px){
+    #main-content #product-item .d-flex{
+        flex-wrap: wrap;
+
+    }
+    #main-content #product-item .card{
+        width: 100%;
+    }
+    #main-content #product-item .card:nth-child(2){
+        margin: 30px 0;
+    }
+}
+#main-content #parallax-1{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://www.rallyssimo.it/wp-content/uploads/2019/06/Loelle-Nuraghe-1200x675.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#main-content #parallax{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://www.loelle.eu/images/headers/Loelle_Argan_oil.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+#main-content #parallax .text-box{
+    padding: 10px 50px;
+    background-color: teal;
+    font-size: 24px;
+    color: white;
+    letter-spacing: 5px;
+    font-weight: 800;
+    margin: auto;
+}
+ 
+#main-content #product-menu .product-list{
+    width: 100%;
+    height: 400px;
+    /* background-color: violet; */
+    margin: 0 0 30px 0;
+}
+#main-content #product-menu .product-list .note{
+    padding: 10px 20px;
+    width: 60%;
+    height:100%;
+    background-color: yellow;
+   
+
+}
+#main-content #product-menu .product-list .texture-1{
+    width: 40%;
+    height: 100%;
+    background-color: yellowgreen;
+    background-image: url("https://www.loelle.eu/images/2020/01/02/Loelle_organic_beauty_Benelux.jpg");
+    background-size: cover;
+    background-position: right;
+}
+#main-content #product-menu .product-list .texture-2{
+    width: 40%;
+    height: 100%;
+    background-color: yellowgreen;
+    background-image: url("https://www.naturligtsnygg.se/marita/wp-content/uploads/sites/9/2017/03/loelle-organic-beauty-1024x768.jpg");
+    background-size: cover;
+    background-position: right;
+}
+
+@media(max-width:1024px){
+    #main-content #product-menu .d-flex{
+        flex-wrap: wrap;
+        /* align-content: start; */
+    }
+    #main-content #product-menu .product-list{
+        width: 100%;
+        height: 600px;
+        /* background-color: violet; */
+    }
+    #main-content #product-menu .product-list .note .d-flex{
+        flex-wrap: wrap;
+        /* width: 100%; */
+        height: unset; */
+        /* order: 1;
+        
+
+    }
+    #main-content #product-menu .product-list .texture{
+        /* width: 100%; */
+        height: 100%;
+
+    }
+}
+
